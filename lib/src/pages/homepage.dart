@@ -93,7 +93,7 @@ Widget _footer(BuildContext context){
           Container(
             padding: EdgeInsets.only(left: 20.0),
             
-            child: Text('Populares',style: Theme.of(context).textTheme.subhead)),
+            child: Text('Populares',style: TextStyle(color:Colors.white))),
           SizedBox(height: 5.0,),
 
           StreamBuilder(

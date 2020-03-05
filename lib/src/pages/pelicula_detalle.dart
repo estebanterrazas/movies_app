@@ -84,12 +84,12 @@ class PeliculaDetalle extends StatelessWidget {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
-                Text(pelicula.title,style: Theme.of(context).textTheme.title ,),
-                Text(pelicula.originalTitle,style: Theme.of(context).textTheme.subhead,overflow: TextOverflow.ellipsis,),
+                Text(pelicula.title,style: TextStyle(color:Colors.white) ,),
+                Text(pelicula.originalTitle,style: TextStyle(color:Colors.white),overflow: TextOverflow.ellipsis,),
                 Row(
                   children: <Widget>[
                     Icon(Icons.star_border),
-                    Text(pelicula.voteAverage.toString(),style: Theme.of(context).textTheme.subhead)
+                    Text(pelicula.voteAverage.toString(),style: TextStyle(color: Colors.white))
                   ],
                 )
               ],
